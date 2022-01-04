@@ -1,5 +1,6 @@
 .statCardsContainer {
 	overflow-y: scroll;
+	padding-top:30px;
 }
 
 .statCardsList {
@@ -28,7 +29,7 @@
 	}
 
 	.statCardsContainer {
-		overflow-y: none;
+		overflow-y: hidden;
 	}
 
 

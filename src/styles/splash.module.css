@@ -30,9 +30,10 @@
 		grid-template-columns: 70% 30%;
 		grid-template-rows: 1fr;
 	}
+
 	.titleImageContainer {
 		display: flex;
-		align-items: flex-start;
+		align-items: center;
 		justify-content: center;
 		padding-top:10px;
 		margin-bottom:15px;
@@ -66,7 +67,7 @@
 	.titleContainer {
 		display: grid;
 		grid-template-columns: 60% 40%;
-		max-width: 480px;
+		width: 480px;
 		margin: 0 auto;
 	}
 }

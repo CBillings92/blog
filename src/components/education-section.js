@@ -70,6 +70,7 @@ export default function EducationSection() {
           </p>
         </div>
       ),
+      languagePills: [{ title: 'Java (OOP Design Course)' }],
     },
   ];
 

@@ -8,6 +8,7 @@ import {
   infoCardLocation,
   infoCardThirdSubTitle,
 } from '../styles/infocard.module.css';
+import Pill from './pill';
 
 export default function InfoCard(props) {
   return (
@@ -38,6 +39,72 @@ export default function InfoCard(props) {
           {/* fourth subtitle if exists */}
           {props.infoCardFourthSubTitle && (
             <div>{props.infoCardFourthSubTitle}</div>
+          )}
+
+          {props.languagePills && (
+            <div>
+              <h3>Languages</h3>
+              <div
+                style={{
+                  display: 'flex',
+                  flexWrap: 'wrap',
+                  alignItems: 'flex-start',
+                }}
+              >
+                {props.languagePills.map((language) => (
+                  <Pill {...language}></Pill>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {props.frameworkAndLibraryPills && (
+            <div>
+              <h3>Frameworks & Libraries</h3>
+              <div
+                style={{
+                  display: 'flex',
+                  flexWrap: 'wrap',
+                  alignItems: 'flex-start',
+                }}
+              >
+                {props.frameworkAndLibraryPills.map((frameworkAndLibrary) => (
+                  <Pill {...frameworkAndLibrary}></Pill>
+                ))}
+              </div>
+            </div>
+          )}
+          {props.toolingPills && (
+            <div>
+              <h3>Tooling</h3>
+              <div
+                style={{
+                  display: 'flex',
+                  flexWrap: 'wrap',
+                  alignItems: 'flex-start',
+                }}
+              >
+                {props.toolingPills.map((tool) => (
+                  <Pill {...tool}></Pill>
+                ))}
+              </div>
+            </div>
+          )}
+          {props.apiPills && (
+            <div>
+              <h3>APIs</h3>
+              <div
+                style={{
+                  display: 'flex',
+                  flexWrap: 'wrap',
+                  alignItems: 'flex-start',
+                }}
+              >
+                {props.apiPills.map((api) => (
+                  <Pill {...api}></Pill>
+                ))}
+              </div>
+            </div>
           )}
         </div>
       </div>
