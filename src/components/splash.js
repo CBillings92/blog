@@ -1,11 +1,13 @@
 import { withTheme } from '@emotion/react';
 import React from 'react';
-import SpotifyCurrentListen from './spotify-current-listen';
 import { StaticImage } from 'gatsby-plugin-image';
+import SpotifyCurrentListen from './spotify-current-listen';
 import StatCard from './stat-card';
 import {
   container,
   titleContainer,
+  titleImageContainer,
+  titleTextContainer,
   titleLead,
   title,
   statsContainer,
@@ -24,10 +26,14 @@ export default function Splash({ children, props }) {
       <div className={container}>
         {/* Top half of splash page, welcome message */}
         <div className={titleContainer}>
-          <div className={titleLead}>Hey there!</div>
-          <div className={title}>I'm Cameron</div>
+          <div className={titleTextContainer}>
+            <div className={titleLead}>Hey there!</div>
+            <div className={title}>I'm Cameron</div>
+          </div>
+          <div className={titleImageContainer}>
+            <StaticImage src="../images/headshot.png"></StaticImage>
+          </div>
         </div>
-
         <SpotifyCurrentListen></SpotifyCurrentListen>
         <StatCard></StatCard>
         {/* Iterate over stats and display them */}
