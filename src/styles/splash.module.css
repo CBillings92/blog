@@ -1,0 +1,32 @@
+.container {
+	position: relative;
+	height: 100%;
+	background-color: #ebecef;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 20% 70% 10%;
+	padding: 10px
+}
+
+.titleContainer {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.titleLead {
+	color: #222232;
+	font-size: 1.7rem;
+	font-style: italic;
+	text-align: center;
+	/* font-family: 'Delius', cursive; */
+	font-family: 'Leckerli One', cursive;
+}
+
+.title {
+	color: #222232;
+	font-size: 2.2rem;
+	text-align: center;
+}

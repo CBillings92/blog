@@ -1,0 +1,4 @@
+.section {
+	max-width: calc(64ch + 220px);
+	margin: 0 auto;
+}

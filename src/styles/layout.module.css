@@ -1,0 +1,32 @@
+.header {
+	background: var(--black);
+	color: var(--white);
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+}
+
+.header a{
+	color: inherit;
+	display: inline-block;
+	padding: 0.5rem;
+	text-decoration: none;
+}
+
+.header a:focus
+.header a:hover {
+	background: var(--white);
+	color: var(--black);
+}
+
+.content {
+	margin: auto
+}
+
+@media (min-width: 54ch){
+	.content {
+		max-width: 54ch;
+		margin: auto;
+		font-size: 2em;
+	}
+}

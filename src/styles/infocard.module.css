@@ -1,0 +1,70 @@
+/* Mobile First Design - smallest screen default, media queries for larger screens */
+.infoCardContainer {
+	max-width: 100%;
+	margin: 30px auto;
+	position: relative;
+}
+
+.info-card-image-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top:10px;
+	margin-bottom:15px;
+}
+
+.info-card-image-container [data-gatsby-image-wrapper] {
+	max-width: 175px;
+}
+
+.infoCardTextContainer {
+	width: 100%;
+	padding: 10px 5px;
+	display: block;
+}
+
+.infoCardTitle {
+	font-weight: bold;
+	font-size: 1.2rem;
+	margin-bottom: 6px;
+}
+
+.infoCardSubTitle {
+	font-style: italic;
+}
+
+.infoCardThirdSubTitle {
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.infoCardLocation {
+	margin-top: 2px;
+}
+
+@media screen and (min-width: 768px){
+	.infoCardContainer {
+		display: grid;
+		grid-template-columns: 200px 64ch;
+		grid-template-rows: 100%;
+	}
+
+	.info-card-image-container {
+		width:100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: start;
+		align-content: start;
+		position: relative;
+
+	}
+
+	.info-card-image-container [data-gatsby-image-wrapper] {
+		width: 70%;
+	}
+
+	.infoCardTextContainer {
+		width:100%;
+		display: inline-block;
+	}
+}
