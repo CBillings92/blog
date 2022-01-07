@@ -20,6 +20,7 @@
 		"gatsby": "^4.1.6",
 		"gatsby-mdx": "^1.0.0",
 		"gatsby-plugin-emotion": "^7.1.0",
+		"gatsby-plugin-google-gtag": "^4.4.0",
 		"gatsby-plugin-image": "^2.4.0",
 		"gatsby-plugin-mdx": "^3.3.0",
 		"gatsby-plugin-page-creator": "^4.3.0",

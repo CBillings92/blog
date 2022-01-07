@@ -26,7 +26,7 @@ export default function StatBox() {
     },
     {
       name: 'Developer',
-      value: { text: `${calcYearsFromToday('05/04/2014')}+ Years` },
+      value: { text: `${calcYearsFromToday('01/01/2015')}+ Years` },
     },
     {
       name: 'Boardgamer',
