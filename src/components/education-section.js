@@ -33,17 +33,6 @@ export default function EducationSection() {
               </li>
             </ul>
           </div>
-          <div>
-            <p>
-              I transferred into Northeastern University's D'Amore McKim School
-              of Business in the fall of 2012. During the transfer I switched
-              from majoring in Computer Science to focusing on business and
-              economics. I decided to make the switch because I knew I wanted to
-              be a technical entrepreneur and build my own company and figured I
-              could teach myself development and engineering on the side of my
-              other studies.
-            </p>
-          </div>
         </div>
       ),
       infoCardLocation: 'Boston, MA',
@@ -60,16 +49,6 @@ export default function EducationSection() {
       infoCardSubTitle:
         'Completed 25 credits - Associates Degree in Comp. Sci.',
       infoCardLocation: 'Selden, NY',
-      infoCardFourthSubTitle: (
-        <div>
-          <p>
-            I started my college career at a local community college studying
-            Computer Science. The couple of introductory computer science
-            classes I took here helped kickstart my interest in becoming a
-            developer.
-          </p>
-        </div>
-      ),
       languagePills: [{ title: 'Java (OOP Design Course)' }],
     },
   ];
