@@ -20,30 +20,40 @@ export default function ExperienceSection() {
       infoCardThirdSubTitle: (
         <div>
           <p>
-            Mission: Making finding your next home more affordable.
+            <strong>Mission:</strong> Making finding your next home more
+            affordable.
             <br />
             <br />
-            Places For Less is a real-estate tech startup that was founded out
-            of Harvard Business School in 2016 with the mission of making
-            apartment rental more affordable by eliminating the traditional one
-            month broker fee.
+            Places For Less is a real estate tech platform that’s changing the
+            way apartment rentals have been done over the past 30 years, and in
+            turn making it both easier and more affordable than ever to rent
+            your next home by cutting the traditional broker fee.
             <br />
             <br />
-            Simultaneously, I was working on a very similar mission with a
-            company I co-founded out of Northeastern U. called Wizio.
+            We’re accomplishing this by building our tech platform on-top of a
+            fully licensed brokerage – enabling Places For Less to offer a full
+            service apartment search-and-rental service while maintaining the
+            flexibility to change up the traditional brokerage rental model
+            that’s been king of the industry for the past 30 years.
             <br />
             <br />
-            Wizio's mission was to make finding your next home more transparent
-            and less costly. Wizio, a real-estate tech startup I co-founded
-            during my time at Northeastern U., merged with Places For Less in
-            February of 2019 - after both teams came to the realization we were
-            pursuing a common mission and vision - making finding your next
-            apartment more affordable.
+            The Places For Less hypothesis is that the current rental brokerage
+            one-to-one (agent-to-renter) business models over-serve their
+            clients, ultimately making the service they provide over priced. So
+            we’re changing it up and gigifying the role of the real estate agent
+            – automating 95% of the agent’s job with our technology and internal
+            team/processes. Our agents aren’t commission based, they’re paid per
+            showing they conduct. The changes we’ve made to the model allow us
+            to pass on the cost savings we receive to our clients (renters and
+            landlords)
             <br />
             <br />
-            The team hit the ground running for the 2019 rental season - merging
-            teams and technologies, taking inventory of our current business
-            needs and status, and prioritizing company goals.
+            As CTO at Places For Less, I work closely with the entire team to
+            build the product vision based on the problems our team and our
+            users are facing – and turn that into a product road map that I and
+            our tech team work to implement. I work closely with our engineers
+            across the stack in building out technical solutions outlined in our
+            product road-map.
             <br />
             <br />
           </p>
@@ -108,9 +118,53 @@ export default function ExperienceSection() {
       infoCardSecondSubTitle: 'Jan. 2015 - Feb. 2019',
       infoCardThirdSubTitle: (
         <div>
-          A web based real-estate tech platform for creating, hosting and
-          sharing virtual reality tours of rental apartments as a way to bring
-          more transparency to the apartment rental process.
+          <p>
+            A web based real-estate tech platform for creating, hosting and
+            sharing virtual reality tours of rental apartments as a way to bring
+            more transparency to the apartment rental process.
+            <br />
+            <br />
+            I co-founded Wizio out of the Northeastern University
+            Entrepreneurship ecosystem during my time there as an undergraduate
+            student. It started with me and my roommate renting our first
+            off-campus college apartment - the apartment wasn't up to code in
+            numerous ways and the landlord was neglectful. Because of this
+            experience, we wanted to use technology to help bring more power and
+            knowledge to the renters in Boston when searching for their next
+            rental home.
+            <br />
+            <br />
+            We founded Wizio and got to work, testing different business models
+            and products with consumers and prospective clients. Through enough
+            product iteration and research, we landed on bringing low-cost, easy
+            to use virtual apartment tours to real-estate professionals in the
+            hopes that our virtual tours would help renters truly see units
+            before going in person for a showing - so that they could be better
+            prepped for that walk through tour with clear expectations and
+            questions.
+            <br />
+            <br />
+            As CTO and Co-Founder I was on the ground floor of a 2-4 person
+            startup talking to prospective users/clients, doing user research,
+            validating (or invalidating) business ideas, creating virtual tours
+            across Boston, and building out the product that eventually became
+            the Wizio website.
+            <br></br>
+            The Wizio website allowed our clients to login, upload their virtual
+            tour content, and host it to be placed/showcased on their website
+            (or shared from our website) with their clients. During our time
+            building Wizio, we filmed 3,000+ apartments in the Boston market.
+            <br />
+            <br />
+            In 2018, the team was looking to create a brokerage within Wizio -
+            utilizing our VR content to streamline the rental process and make
+            it more efficient and less costly to renters.
+            <br />
+            <br />
+            In the winter of 2018, Wizio merged with a local Boston based
+            startup tackling a very similar mission - Places For Less. The
+            merger became official in February of 2019
+          </p>
         </div>
       ),
       languagePills: [
@@ -165,8 +219,29 @@ export default function ExperienceSection() {
       infoCardSecondSubTitle: 'May 2017 - Sept. 2018',
       infoCardThirdSubTitle: (
         <div>
-          DraftKings is an American daily fantasy sports contest and sports
-          betting operator.
+          <p>
+            DraftKings is an American daily fantasy sports contest and sports
+            betting operator.
+            <br />
+            <br />
+            As a Data Engineer I...
+            <ul>
+              <li>
+                Worked closely with teams and individuals from across the
+                organization to find technical, data driven solutions to their
+                needs
+              </li>
+              <li>
+                Developed and maintained custom SQL ETL scripts responsible for
+                cleaning and loading data into the company's data warehouse
+              </li>
+              <li>
+                Monitored data warehouse performance and health through DataDog
+                dashboards and custom-built data validation SQL scripts
+              </li>
+              <li>Assisted with company roll-out of Tableau</li>
+            </ul>
+          </p>
         </div>
       ),
       languagePills: [{ title: 'SQL (TSQL)' }, { title: 'Python' }],
@@ -192,8 +267,35 @@ export default function ExperienceSection() {
       ),
       infoCardSubTitle: 'Business Intelligence and Web App Developer',
       infoCardSecondSubTitle: 'Jan 2015 - June 2017',
-      infoCardThirdSubTitle:
-        'Boston Private is a leading wealth management, trust, and private banking company serving customers in Boston, San Francisco, LA, New York, and Palm Beach.',
+      infoCardThirdSubTitle: (
+        <div>
+          <p>
+            Boston Private is a leading wealth management, trust, and private
+            banking company serving customers in Boston, San Francisco, LA, New
+            York, and Palm Beach.
+            <br />
+            <br />
+            <ul>
+              <li>
+                Developed internal workflow enhancing web applications utilizing
+                Visual Studio 2015, ASP.NET/C#, SQL Server, and IIS.
+              </li>
+              <li>
+                Worked closely with business units to create data reports
+                utilizing Hyperion Financial Reporting Studio.
+              </li>
+              <li>
+                Created ETL utilizing SQL Server Intergration Services (SSIS)
+                with SQL Server.
+              </li>
+              <li>
+                Maintained ETL activities for quarterly board reports using R/R
+                Studio
+              </li>
+            </ul>
+          </p>
+        </div>
+      ),
       infoCardLocation: 'Boston, MA',
       languagePills: [
         { title: 'JavaScript' },
