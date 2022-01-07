@@ -275,6 +275,7 @@ export default function ExperienceSection() {
             York, and Palm Beach.
             <br />
             <br />
+            During my time at Boston Private I...
             <ul>
               <li>
                 Developed internal workflow enhancing web applications utilizing
@@ -387,8 +388,8 @@ export default function ExperienceSection() {
           Natixis is an investment management firm providing solutions, mutual
           funds, ETFs, and separate accounts, for institutions and financial
           professionals.
-          <br /> <br />
-          As a department administrator I
+          <br />
+          As a department administrator I...
           <ul>
             <li>Updating the learning portal with with new content.</li>
             <li>
