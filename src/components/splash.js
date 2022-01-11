@@ -29,6 +29,12 @@ export default function Splash({ children, props }) {
           <div className={titleTextContainer}>
             <div className={titleLead}>Hey there!</div>
             <div className={title}>I'm Cameron</div>
+            <div>
+              <small style={{ fontSize: '0.8rem', textAlign: 'center' }}>
+                Welcome to my new site! It's still under construction and being
+                updated daily!
+              </small>
+            </div>
           </div>
           <div className={titleImageContainer}>
             <StaticImage src="../images/headshot.png"></StaticImage>
