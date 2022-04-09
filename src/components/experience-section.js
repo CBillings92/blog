@@ -6,6 +6,42 @@ import { section } from '../styles/section.module.css';
 export default function ExperienceSection() {
   let infoCards = [
     {
+      infoCardTitle: 'DraftKings',
+      image: (
+        <StaticImage
+          src="../images/draftkings_logo.jpg"
+          alt="Drafktings Logo"
+          placeholder="dominiantColor"
+        ></StaticImage>
+      ),
+      infoCardSubTitle: 'Senior Data Engineer',
+      infoCardLocation: 'Boston, MA',
+      infoCardSecondSubTitle: 'Feb. 2022 - Present',
+      infoCardThirdSubTitle: (
+        <div>
+          <p>
+            DraftKings is an American daily fantasy sports contest and sports
+            betting operator.
+            <br />
+            <br />
+          </p>
+        </div>
+      ),
+      languagePills: [{ title: 'SQL' }, { title: 'Python' }],
+      toolingPills: [
+        { title: 'Snowflake' },
+        { title: 'Apache Airflow' },
+        { title: 'AWS S3' },
+        { title: 'AWS Lambda' },
+        { title: 'BitBucket' },
+        { title: 'Jira' },
+        { title: 'Lucidchart' },
+        { title: 'SQL Server' },
+        { title: 'SQL Server Management Studio' },
+        { title: 'Tableau' },
+      ],
+    },
+    {
       infoCardTitle: 'Places For Less LLC',
       image: (
         <StaticImage
@@ -16,7 +52,7 @@ export default function ExperienceSection() {
       ),
       infoCardSubTitle: 'CTO | Full-Stack Engineer',
       infoCardLocation: 'Boston, MA',
-      infoCardSecondSubTitle: 'Feb. 2019 - Present',
+      infoCardSecondSubTitle: 'Feb. 2019 - Jan. 2022',
       infoCardThirdSubTitle: (
         <div>
           <p>
